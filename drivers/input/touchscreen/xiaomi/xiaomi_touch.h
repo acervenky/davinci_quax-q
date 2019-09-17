@@ -87,6 +87,8 @@ struct xiaomi_touch_pdata{
 	int psensor_value;
 	bool psensor_changed;
 	const char *name;
+	bool skip_update;
+	bool force_game_mode;
 };
 
 struct xiaomi_touch *xiaomi_touch_dev_get(int minor);
