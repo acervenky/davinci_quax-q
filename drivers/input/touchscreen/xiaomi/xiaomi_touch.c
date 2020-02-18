@@ -371,8 +371,6 @@ static DEVICE_ATTR(p_sensor, (S_IRUGO | S_IWUSR | S_IWGRP),
 
 static DEVICE_ATTR(touch_vendor, 0644, xiaomi_touch_vendor_show, NULL);
 
-static DEVICE_ATTR(pocket_touch, (S_IRUGO | S_IWUSR | S_IWGRP),
-		   pocket_show, pocket_store);
 		   
 static DEVICE_ATTR(skip_update, (S_IRUGO | S_IWUSR | S_IWGRP),
 		   skip_update_show, skip_update_store);
