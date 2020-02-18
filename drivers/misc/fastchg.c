@@ -1,7 +1,7 @@
 /*
  * Author: Chad Froebel <chadfroebel@gmail.com>
  *
- * Port to raphael : acervenky <acervenky@gmail.com>
+ * Port to davinci : acervenky <acervenky@gmail.com>
  *
  * This software is licensed under the terms of the GNU General Public
  * License version 2, as published by the Free Software Foundation, and
